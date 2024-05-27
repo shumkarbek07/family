@@ -1,0 +1,45 @@
+.title-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffae00;
+}
+
+.title-1:hover {
+  color: #7a7a7a;
+}
+
+.projects {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.project_img {
+  border-radius: 10px;
+  width: 250px;
+  height: 150px;
+}
+
+.project_title {
+  font-size: 25px;
+  color: #ffae00;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.project_title:hover {
+  color: #7a7a7a;
+}
+
+/* Медиа-запросы для адаптивного дизайна */
+@media screen and (max-width: 768px) {
+  .projects {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .project_img {
+    max-width: 80%;
+  }
+}

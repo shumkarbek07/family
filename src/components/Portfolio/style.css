@@ -1,0 +1,11 @@
+.kizjurut {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: grid;
+  margin: 45px;
+  grid-template-columns: repeat(3, 30%);
+  -moz-column-gap: 10px;
+  column-gap: 10px;
+  row-gap: 15px;
+}

@@ -1,0 +1,34 @@
+.surot {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: grid;
+  margin: 45px;
+  grid-template-columns: repeat(4, 25%);
+  -moz-column-gap: 10px;
+  column-gap: 10px;
+  row-gap: 15px;
+}
+
+.apa {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.n {
+  color: blue;
+}
+
+.s {
+  color: red;
+}
+
+.b {
+  color: green;
+}
+
+.texttext {
+  display: flex;
+  justify-content: center;
+}
